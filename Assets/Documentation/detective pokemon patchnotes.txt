@@ -1,0 +1,62 @@
+Detective Pokemon patch notes
+
+1.0
+
+-- following "Make a Game like Pokemon in Unity" on Youtube
+
+-- created placeholder Player and NPC sprites
+
+-- created placeholder Player walking and idle animations
+
+-- coded basic moving 
+
+1.1
+
+-- added some basic NPC interactions. Player can talk to NPC, which will lock control and display dialogue.
+
+-- added "Critter" scriptable object (pokemon-likE)
+
+-- added solid objects
+
+-- added some UI elements
+
+1.2
+
+-- cleaned up dialogue code. dialogue can now scroll through multiple lines. dialogue box now closes when the conversation is done.
+
+-- cleaned up movement code. NPC's can now move.
+
+-- NPC's can now look in the direction of the player
+
+-- fixed animation logic to include directional idle animations
+
+-- added running shoes for variable speed (can be used for bike, riding pokemon etc later)
+
+-- added some cop sprite variants with basic animation
+
+-- added descrtuctable "police tape" object
+
+1.2
+
+-- created Prefbs and Documentation. added patchnotes to Documentation. added Player, Bin, NPC, Dialogue Canvas and Game Controller Prefabs. started new Scene "Mr Lime Scene" based on the Batman comic "Blades"
+
+TO DO:
+
+SFX
+Branching dialogue
+congest assets
+Mr Lime characters, mysteries, etc
+double check code, write notes
+make pokemon?
+
+1.3
+
+-- added OfficeScene and LoadingScene. (double check original loading video)
+
+-- the Office is the Player's home base. a resource they can visit for downtime and to replenish resources
+
+-- Player can now transition between Scenes. (remove ExitScript and ExitScript2. figure out how to add transitions thru interaction / dialogue choices)
+
+-- added "Office Tileset" for creating background tiles for the Office. Added Sorting Layer NPC. The Tileset is kept in the background by changing its Sorting Layer.
+
+

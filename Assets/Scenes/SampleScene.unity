@@ -4217,6 +4217,11 @@ PrefabInstance:
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 1459436955}
+    - target: {fileID: 2966142793661993733, guid: 6edbea27707801841ab980ca56267b3a,
+        type: 3}
+      propertyPath: dialogueCanvas
+      value: 
+      objectReference: {fileID: 1561374383}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6edbea27707801841ab980ca56267b3a, type: 3}
