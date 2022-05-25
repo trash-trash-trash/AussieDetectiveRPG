@@ -14,13 +14,13 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - FarBackground
+  - Background
   - Player
   - Interactable
   - SolidObject
   - Environment
-  - Background
+  - Foreground
   - 
   - 
   - 

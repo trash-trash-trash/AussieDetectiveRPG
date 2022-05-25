@@ -59,4 +59,14 @@ make pokemon?
 
 -- added "Office Tileset" for creating background tiles for the Office. Added Sorting Layer NPC. The Tileset is kept in the background by changing its Sorting Layer.
 
+-- added more Office tiles to the tileset, added Box collider 2D to environment, added additonal sorting Layer (player always appears in front now, must refix)
 
+-- added Tiles to Sample Scene. Must keep layers, tags and sorting layers properly organised!!
+
+-- added SFXScript for later integration
+
+-- added "Car" prefab. Car is used to travel between Scenes
+
+-- added NPC Girl04 and Oldman01 sprites 
+
+-- Mr Gull is always watching...
