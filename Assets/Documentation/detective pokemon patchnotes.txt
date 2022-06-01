@@ -70,3 +70,13 @@ make pokemon?
 -- added NPC Girl04 and Oldman01 sprites 
 
 -- Mr Gull is always watching...
+
+1.4
+
+-- using https://youtu.be/guelZvubWFY added input text field logic. useful for tracking the Player's name and for keeping notes...
+
+-- added Main Menu scene. Added MainMenu.cs. Added PersistentGameObject to Main Menu. Created new tag "PersistentGameObject". Added an Input text field to Main Menu for PlayerName and a StartButton for loading Office Scene (actual first scene will change later)
+
+-- added PlayerPrefs string LocationName for tracking where the Player is. Added GetMyText.cs to Persistent Game Object to display to the Player the Location Name, then fades out (add fade/transistion later. also maybe use Dialogue Manager to display this text)
+
+-- updated ExitScript.cs to include references to and functions using GetMyText.cs

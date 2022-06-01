@@ -41,10 +41,6 @@ public class DialogueManager : MonoBehaviour
 		OnCloseDialogue?.Invoke();
 	}
 	
-	public void HandleUpdate()
-	{
-		
-	}
 
 	public IEnumerator TypeDialogue(string line)
 	{
